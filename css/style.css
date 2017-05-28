@@ -2,10 +2,15 @@ body {
   margin:0;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   background-color:black;
+  max-width: 100%;
 }
 
 .break {
   clear:both;
+}
+
+img, embed, object, video {
+    max-width: 100%;
 }
 
 @media screen and (max-width: 400px) {
